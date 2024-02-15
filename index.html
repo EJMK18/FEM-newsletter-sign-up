@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/images/favicon-32x32.png"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+
+		<title>
+			Frontend Mentor | Newsletter sign-up form with success message
+		</title>
+	</head>
+	<body>
+		<main>
+			<div class="newsletter-content">
+				<section class="grid-cols-1 sign-up-area">
+					<h1>Stay updated!</h1>
+					<p>
+						Join 60,000+ product managers receiving monthly updates
+						on:
+					</p>
+					<ul>
+						<li>Product discovery and building what matters</li>
+						<li>Measuring to ensure updates are a success</li>
+						<li>And much more!</li>
+					</ul>
+					<div class="email-area">
+						<div class="validation-area">
+							<p><strong>Email address</strong></p>
+							<p class="validation">&nbsp;</p>
+						</div>
+						<input type="text" placeholder="email@company.com" />
+					</div>
+
+					<button class="subscribe-btn">
+						Subscribe to monthly newsletter
+					</button>
+				</section>
+
+				<section class="img-wrapper">
+					<img
+						src="illustration-sign-up-desktop.svg"
+						alt="Newsletter sign-up image"
+					/>
+				</section>
+			</div>
+
+			<article class="grid-cols-1 hide">
+				<img
+					src="icon-success.svg"
+					alt="Checkmark icon for successful sign-up"
+					class="success-icon"
+				/>
+				<h2>Thanks for subscribing!</h2>
+				<p>
+					A confirmation email has been sent to
+					<strong class="user-email">&nbsp;</strong>. Please open it
+					and click the button inside to confirm your subscription.
+				</p>
+				<button class="dismiss-btn">Dismiss message</button>
+			</article>
+		</main>
+
+		<div class="attribution">
+			<p>Challenge by</p>
+			<a
+				href="https://www.frontendmentor.io?ref=challenge"
+				target="_blank"
+				>Frontend Mentor</a
+			>
+			<p>Coded by</p>
+			<a
+				href="https://www.frontendmentor.io/profile/EJMK18"
+				target="_blank"
+				>Evan Edmund Munnik</a
+			>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
